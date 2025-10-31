@@ -117,7 +117,7 @@ nav a:hover {
 /* ======= HERO (section d'accueil) ======= */
 .hero {
   background: linear-gradient(rgba(0, 51, 102, 0.8), rgba(0, 51, 102, 0.8)),
-              url('Images/Capture d’écran 2025-10-30 à 15.18.29.png') center/cover no-repeat;
+              url('images/Capture d’écran 2025-10-30 à 15.18.29.png') center/cover no-repeat;
   color: white;
   text-align: center;
   padding: 100px 20px;
@@ -211,7 +211,7 @@ footer {
 .hero {
   position: relative;
   height: 85vh;
-  background: url("Images/Capture d’écran 2025-10-30 à 15.18.29.png") center/cover no-repeat;
+  background: url("images/Capture d’écran 2025-10-30 à 15.18.29.png") center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
