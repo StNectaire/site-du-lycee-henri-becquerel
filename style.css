@@ -117,7 +117,7 @@ nav a:hover {
 /* ======= HERO (section d'accueil) ======= */
 .hero {
   background: linear-gradient(rgba(0, 51, 102, 0.8), rgba(0, 51, 102, 0.8)),
-              url('images/arriere-plan.png') center/cover no-repeat;
+              url('Images/arriere-plan.jpg') center/cover no-repeat;
   color: white;
   text-align: center;
   padding: 100px 20px;
@@ -211,16 +211,13 @@ footer {
 .hero {
   position: relative;
   height: 85vh;
-  background: 
-    linear-gradient(rgba(0, 51, 102, 0.8), rgba(0, 51, 102, 0.8)),
-    url("images/arriere-plan.png") center/cover no-repeat;
+  background: url("Images/arriere-plan.jpg") center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
   text-align: center;
 }
-
 
 .overlay {
   position: relative;
