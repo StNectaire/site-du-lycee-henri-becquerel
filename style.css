@@ -1,0 +1,300 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #003366;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0 10px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+.menu-image {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.menu-image img {
+  max-width: 90%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.reservation {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.reservation .btn {
+  background-color: #003366;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.reservation .btn:hover {
+  background-color: #0055aa;
+}
+/* ======= STYLE GÉNÉRAL ======= */
+body {
+  font-family: 'Segoe UI', Roboto, sans-serif;
+  background-color: #f5f3eb;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #003366;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+}
+
+header h1 {
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav a {
+  color: #f5f3eb;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #f2b705;
+}
+
+/* ======= HERO (section d'accueil) ======= */
+.hero {
+  background: linear-gradient(rgba(0, 51, 102, 0.8), rgba(0, 51, 102, 0.8)),
+              url('Images/arriere-plan.jpg') center/cover no-repeat;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: #f5f3eb;
+}
+
+.btn-primary {
+  background-color: #f2b705;
+  color: #003366;
+  padding: 12px 25px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn-primary:hover {
+  background-color: #ffd25a;
+  transform: scale(1.05);
+}
+
+/* ======= SECTION INFO ======= */
+.info {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.info h3 {
+  color: #003366;
+  margin-bottom: 30px;
+  font-size: 1.8rem;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 25px;
+  width: 300px;
+  text-align: left;
+  transition: transform 0.3s, box-shadow 0.3s;
+  border-top: 5px solid #2bb8a9;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+}
+
+.card h4 {
+  color: #2bb8a9;
+  margin-bottom: 10px;
+}
+
+/* ======= FOOTER ======= */
+footer {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+  margin-top: 50px;
+}
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background-color: rgba(0, 51, 102, 0.6); */ /* supprimé le filtre bleu */
+  z-index: 0;
+}
+.hero {
+  position: relative;
+  height: 85vh;
+  background: url("Images/arriere-plan.jpg") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.overlay {
+  position: relative;
+  z-index: 1;
+  max-width: 750px;
+  padding: 25px 30px;
+  background: rgba(0, 0, 0, 0.35); /* léger fond noir transparent */
+  border-radius: 12px;
+  backdrop-filter: blur(3px); /* petit flou pour effet moderne */
+}
+
+.overlay h2 {
+  font-size: 2.4rem;
+  margin-bottom: 10px;
+  color: #ffffff;
+  text-shadow: 0 2px 5px rgba(0,0,0,0.5); /* pour faire ressortir le texte */
+}
+
+.overlay p {
+  font-size: 1.2rem;
+  margin-bottom: 25px;
+  color: #f5f3eb;
+  text-shadow: 0 1px 4px rgba(0,0,0,0.5);
+}
+/* ===== HEADER AVEC LOGO ALIGNÉ À GAUCHE ===== */
+header {
+  background-color: #003366;
+  color: white;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+  width: 100%;
+}
+
+/* On retire le centrage pour que le logo colle à gauche */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px; /* espace intérieur du header */
+}
+
+/* Bloc logo + titre */
+.logo-title {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+/* Logo */
+.logo {
+  height: 60px;
+  width: auto;
+  background-color: #f5f3eb;
+  padding: 5px;
+  border-radius: 8px;
+
+  /* rendu plus équilibré et légèrement plus sombre */
+  filter: brightness(0.95) contrast(1.1);
+}
+
+
+
+/* ===== NAVIGATION ===== */
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 25px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #f2b705;
+}
